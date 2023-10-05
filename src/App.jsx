@@ -33,6 +33,11 @@ const MainContainer = styled.main`
 const App = () => {  
   const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos)
   const [fotoSelecionada, setFotoSelecionada] = useState(null)
+
+  const aoAlternarFavorito = (foto) => {
+    
+  }
+
   return (
     <FundoGradiente>
       <EstilosGlobais />
@@ -47,6 +52,7 @@ const App = () => {
                 />
                 <Galeria 
                 aoFotoSelecionada={foto => setFotoSelecionada(foto)}
+                aoAlternarFavorito={aoAlternarFavorito}
                 fotos={fotosDaGaleria}/> 
             </ConteudoGaleria>            
           </MainContainer>             
