@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import { styled } from "styled-components"
 import ItemNavegacao from "./ItemNavegacao"
 
 const ListaEstilizada = styled.ul`
