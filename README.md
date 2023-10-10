@@ -50,7 +50,7 @@ Explorei a manipulação de arquivos estáticos, trabalhando com imagens e arqui
 
 ```bash
 # Clone este repositório
-$ git clone 
+$ git clone https://github.com/alura-cursos/space-app
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd  spaceapp
 # Instale o vitejs
